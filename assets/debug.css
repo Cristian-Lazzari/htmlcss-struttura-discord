@@ -44,12 +44,11 @@ nav{
 }
 
 .container-1{
-
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+
     
 }
 .photo, .description{
@@ -68,4 +67,27 @@ nav{
     background-color: rgb(76, 126, 110);
     width: 20%;
     flex-shrink: 1;
+}
+
+.container-2{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(183, 183, 183);
+}
+.container-3{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(172, 59, 59);
+}
+.big-photo{
+    background-color: blueviolet;
+    height: 500px;
+    width: 60%;
+
 }

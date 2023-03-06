@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+header{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    align-items: center ;
+}
+nav{
+    height: 30px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.barra-link{
+    background-color: yellow;
+    height: 20px;
+    width: 80%; 
+    display: flex; 
+}
+.logo, .link, .login{
+    border: 3px solid black;
+}
+
+.logo, .login{
+    width: 10%;
+}
+.link{
+    width: 80%;
+}
+.main-header{
+    background-color: pink;
+    height: 80px;
+    width: 60%;
+
+}
+
+.container-1{
+
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.photo, .description{
+    height: 120px;
+
+}
+
+.photo{
+    background-color: aquamarine;
+    width: 40%;
+    flex-shrink: 1;
+
+    
+}
+.description{
+    background-color: rgb(76, 126, 110);
+    width: 20%;
+    flex-shrink: 1;
+}
